@@ -1,0 +1,21 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	
+	"javaInterfaces":[  
+	 	"java.io.Serializable"
+	],
+	
+	"properties": {
+		"name": {
+			"type": "string"
+		},
+		"age": {
+			"type": "integer"
+		}
+	},
+	
+	"required": [
+		"name", "age"
+	]
+}
